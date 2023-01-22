@@ -14,7 +14,7 @@ class ConcretePrototype(Prototype):
 class Computer:
     def __init__(self, serial_number):
         self.serial = serial_number
-        #Memory of computer
+        # Memory of computer
         self.memory = None  
         # Hard disk of computer
         self.hdd = None  
